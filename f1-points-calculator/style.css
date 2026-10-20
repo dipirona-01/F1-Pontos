@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4b4a4a;
+    font-family: Arial, sans-serif;
+}
+section {
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 400px;
+    margin: 25px auto;
+    padding: 20px;
+}
+h1 {
+    background-color: #9b0000;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+div {
+    margin: 10px;
+    font-weight: bold;
+    
+}
