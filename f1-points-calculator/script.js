@@ -1,12 +1,13 @@
-let pontos = document.getElementById('nump').value
-
-
-
 function calcular() {
-    if (pontos >= 0 && pontos <= 25) {
-        window.alert("Valor válido")
-    } else {
-        window.alert("Digite um valor válido")
+    let nome = document.getElementById("nome").value.trim()
+    let pontos = document.getElementById("nump").value
+    if (nome == "" || pontos == "") {
+        document.getElementById("resultado").innerHTML = ""
+        alert("Preencha todos os campos!")
+        return
+    } else if (pontos < 0 || !Number.isInteger(Number(pontos))) {
+        alert("Digite um valor válido!")
+        return
     } 
+    document.getElementById("resultado").innerHTML = `${nome} fez ${pontos} pontos.`
 }
-
