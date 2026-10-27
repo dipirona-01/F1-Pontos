@@ -4,16 +4,17 @@
 }
 
 body {
-    background-color: #080808f5;
+    background-color: #ccccccf5;
     font-family: Arial, sans-serif;
 }
 section {
-    background-color: lightgray;
+    background-color: rgb(63, 59, 59);
     border-radius: 10px;
     width: auto;
     margin: 50px auto;
     padding: 20px;
     max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
 }
 h1 {
     background-color: #9b0000;
@@ -52,18 +53,20 @@ div {
 }
 
 #submit {
-    background-color: #9b0000;
+    background-color: #9c0000;
     padding: 5px;
     border-radius: 5px;
     color: white;
+    transition: 0.3s;
+    
 }
 #submit:hover {
-    background-color: #d40202;
+    background-color: #423737;
     cursor: pointer;
-    transition: 0.3s;
+    color: black;
 }
 
 #resultado {
     padding: 5px;
-    color: #9b0000;
+    color: #c90101;
 }

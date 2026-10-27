@@ -6,6 +6,7 @@ function calcular() {
         alert("Preencha todos os campos!")
         return
     } else if (pontos < 0 || !Number.isInteger(Number(pontos))) {
+        document.getElementById("resultado").innerHTML = ""
         alert("Digite um valor válido!")
         return
     } 
